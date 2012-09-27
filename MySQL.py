@@ -4,7 +4,9 @@ import MySQLdb
 import sys
 
 class DBConnector:
-    """ usage:
+    """ usage: object requires server name, username, 
+               user password, and database name before 
+               connect() method may be called.
 
     Class will build database connector object """
 
