@@ -14,15 +14,15 @@ def buildInfoRetrievalSQLQuery(s_charName, i_infoSelection):
         2: "character_stats"
     }
 
-    s_sqlQuery = "SELECT %s FROM LOLArmory.character_names WHERE \
-character_name = '%s'" % (d_infoSelection[i_infoSelection],
-                        s_charName)
+    s_sqlQuery = "SELECT %s FROM LOLArmory.character \
+WHERE name = '%s'" % (d_infoSelection[i_infoSelection], 
+                                    s_charName)
 
-    return s_sqlQuery
+    return s_sqlQuery.strip('\n')
 
 def createCharacterSQLQuery(s_charName):
-    s_sqlQuery = """INSERT INTO LOLArmory.character_names (character_name) 
-                    VALUES (%s) 
+    s_sqlQuery = """INSERT INTO LOLArmory.character (name)
+                    VALUES (%s)
                     LIMIT 1""" % s_charName
     return s_sqlQuery
     
