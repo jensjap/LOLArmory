@@ -1,0 +1,26 @@
+Program ideas:
+
+- web browser
+- messaging system
+  - stack programming
+  - so basically create an email driven chat system
+*** armory for league of legends
+  - enter character's name and then show character stats
+
+daniel:
+build a function that accepts a string parameter, normalize it, strip it of trailing and leading whitespaces, return normalized, check for string length, if it's over 14 characters then don't even test, return clean string plus good or bad flag
+
+stephanie:
+build a function that will accept a string parameter then build sql statement to check for existence of that character name in db, return row count, db = LOLArmory, table = character_names.
+
+-> choose what info to get
+
+jens:
+build a function that will build sql statement to retrieve info based on choice and return info
+
+kenjy:
+build function to display results on page
+
+character info + stats ----> send to matt
+
+matt build db of his choice
