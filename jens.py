@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 def buildInfoRetrievalSQLQuery(s_charName, i_infoSelection):
     """ usage: buildInfoRetrievalSQLQuery(Character Name, Info Selection)
 
